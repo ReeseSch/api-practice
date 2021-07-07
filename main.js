@@ -19,7 +19,7 @@ const clicked = () => {
                 console.log(res.data.name)
                 const nameDisplay = document.createElement('h2')
                 let name = res.data.name
-            nameDisplay.textContent = `${name} lives on Alderaan! Good for them!`
+            nameDisplay.textContent = `${name} lives on Alderaan! Fascinating!!!`
             body.append(nameDisplay)
         }).catch(errorCallBack)
     }}).catch(errorCallBack)
